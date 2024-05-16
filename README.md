@@ -1,6 +1,8 @@
 # Project Management System
 
-This is a simple Project Management System implemented using Java 17 and Spring Boot. It provides CRUD (Create, Read, Update, Delete) operations for managing projects.
+This is a simple Project Management System implemented using Java 17 and Spring Boot. 
+
+It provides CRUD (Create, Read, Update, Delete) operations for managing projects.
 
 ## Project Setup
 
@@ -11,17 +13,18 @@ This is a simple Project Management System implemented using Java 17 and Spring 
 
 ### Steps to Setup
 1. Clone the repository to your local machine:
+
    git clone https://github.com/yamini20-01/ProjectManagement.git
 
 2. Navigate to the project directory in IntelliJ IDEA projectmanagement:
 
    cd projectmanagement
    
-4. Build the project using Maven:
+3. Build the project using Maven:
 
    mvn clean install
    
-6. Run the Application:
+4. Run the Application:
 
    The application will start on port 8080 by default.
    
@@ -56,6 +59,8 @@ Refer to the API documentation or use tools like Postman for detailed usage inst
 The application includes unit tests and integration tests to ensure the correctness of its functionalities. You can run the tests using Maven:
 
 mvn test
+
+
 
 ###
 This README.md file provides a brief overview of the project, setup instructions, project structure, REST API endpoints, testing instructions, contribution guidelines, and license information. You can customize it further based on your specific project requirements and additional information you want to include.
