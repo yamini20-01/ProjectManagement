@@ -29,10 +29,13 @@ This is a simple Project Management System implemented using Java 17 and Spring 
 ### Project Structure
 The project follows a typical Spring Boot application structure with the following packages:
 
-com.example.projectmanagement.controllers: Contains REST API controllers.
-com.example.projectmanagement.models: Contains entity classes representing the data model.
-com.example.projectmanagement.repositories: Contains Spring Data JPA repositories.
-com.example.projectmanagement.services: Contains service classes for business logic.
+com.sirma.projectmanagement.controller: Contains REST API controllers.
+
+com.sirma.projectmanagement.entity: Contains entity classes representing the data model.
+
+com.sirma.projectmanagement.repository: Contains Spring Data JPA repositories.
+
+com.sirma.projectmanagement.service: Contains service classes for business logic.
 
 ### REST API Endpoints
 The following REST API endpoints are available:
